@@ -7,7 +7,7 @@ A simple Retrieval-Augmented Generation (RAG) application that allows users to c
 - Load documents from URLs
 - Split documents into chunks
 - Generate embeddings using Ollama
-- Vector storage using Chroma
+- Vector storage using InMemory
 - Interactive chat interface
 - Streamlit web UI
 
