@@ -307,6 +307,7 @@ def handler(job):
         # Wrap response
         print(f"{request_prefix} Post-processing Time:{time.time()-infer_end}")
         print(f"{request_prefix} API Response Time:{time.time()}")
+        print('response:', response_data)
         return [response_data, headers]
 
     except Exception as e:
